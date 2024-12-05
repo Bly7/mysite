@@ -1,3 +1,5 @@
+/*20px = 5mm -> 4 px = 1 mm*/
+
 body.dark {
 	background-color: #0B141B;
 }
@@ -6,12 +8,12 @@ div.navigation
 {
 	color:#EDEBE8;
 	background-color:#121C26;
-	padding:10px;
+	padding:2.5mm;
 }
 
 div.articleHolder
 {
-	max-width:800px;
+	max-width:200mm;
 	margin-inline: auto;
 }
 
@@ -19,28 +21,28 @@ div.article
 {
 	color:#EDEBE8;
 	background-color:#121C26;
-	padding:10px;
-	border-radius:10px;
-	margin-top: 10px;
+	padding:2.5mm;
+	border-radius:2.5mm;
+	margin-top: 2.5mm;
 }
 
 h1.article-title
 {
-	margin:20px;
-	margin-bottom: 0px;
+	margin:5mm;
+	margin-bottom: 0mm;
 }
 
 h2.article-date
 {
-	font-size: 18px;
-	margin-left: 20px;
-	margin-top: 2px;
+	font-size: 4.5mm;
+	margin-left: 5mm;
+	margin-top: .5mm;
 }
 
 p.article-body
 {
-	padding-left:40px;
-	padding-right:40px;
+	padding-left:10mm;
+	padding-right:10mm;
 	font-size:5mm;
 }
 
@@ -48,8 +50,8 @@ img.article-image
 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 5mm;
+	margin-bottom: 5mm;
 	width: 50%;
 	display: block;
 }
