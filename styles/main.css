@@ -10,6 +10,11 @@ body.dark
 	margin-inline: auto;
 }
 
+div.logoMobile
+{
+	display: none;
+}
+
 div.navigation
 {
 	color:#EDEBE8;
@@ -34,6 +39,10 @@ div.articleNavigation
 
 @media (max-width:230mm)
 {
+	div.logoMobile
+	{
+		display: contents;
+	}
 	div.articleNavigation
 	{
 		display: none;
