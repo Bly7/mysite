@@ -16,6 +16,8 @@ div.navigation
 	background-color:#121C26;
 	padding:2.5mm;
 	border-radius: 2.5mm;
+
+	margin-left: 63mm;
 }
 
 div.articleNavigation
@@ -26,7 +28,29 @@ div.articleNavigation
 	background-color:#121C26;
 	margin:2.5mm;
 	margin-left: .43mm;
+	margin-top: 0mm;
 	border-radius: 2.5mm;
+}
+
+@media (max-width:230mm)
+{
+	div.articleNavigation
+	{
+		display: none;
+	}
+	div.navigation
+	{
+		margin-left: 0mm;
+	}
+	body.dark
+	{
+		min-width: 100%;
+	}
+	div.articleHolder
+	{
+		width:100%;
+		min-width: 100%;
+	}
 }
 
 div.articleHolder
@@ -36,6 +60,7 @@ div.articleHolder
 	/*margin-inline: auto;*/
 	/*margin-inline-start: 300px;*/
 	width: calc(100% - 63mm);
+	/*min-width: calc(100% - 63mm);*/
 }
 
 div.article
